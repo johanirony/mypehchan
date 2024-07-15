@@ -244,16 +244,17 @@ export default function List() {
   return (
 <div className=" w-full h-auto bg-[#30D5C8] hidden lg:flex ">
         <NavigationMenu className='bg-[#30D5C8] grid grid-cols-10 justify-between items-center '>
-    {links.map((link)=>(<NavigationMenuList key={link.id} className='  '>
+    {links.map((link)=>(<div key={link.id} className=""><NavigationMenuList  className='  '>
         <NavigationMenuItem  className=''><NavigationMenuTrigger className='text-sm text-white font-semibold bg-[#30D5C8]   '>{link.link}</NavigationMenuTrigger>
         
         
         <NavigationMenuContent>
-          <div className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[1500px] lg:grid-cols-4  ">
+          
             
               {link.dropdown.map((dropdown)=>(
+                <div key={dropdown.id} className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[1500px] lg:grid-cols-4  ">
                 <ListItem 
-                key={dropdown.id}
+                
                
                 title={dropdown.link}
                 href="#"
@@ -262,9 +263,10 @@ export default function List() {
                 
                 
               </ListItem>
+              </div>
               ))}
             
-          </div>
+          
         </NavigationMenuContent>
         </NavigationMenuItem>
       
@@ -274,7 +276,7 @@ export default function List() {
      
       
       
-    </NavigationMenuList>  ))}
+    </NavigationMenuList></div>  ))}
   </NavigationMenu>
     </div>
    
