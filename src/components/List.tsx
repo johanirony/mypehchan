@@ -244,7 +244,7 @@ export default function List() {
   return (
 <div className=" w-full h-auto bg-[#30D5C8] hidden lg:flex ">
         <NavigationMenu className='bg-[#30D5C8] grid grid-cols-10 justify-between items-center '>
-    {links.map((link)=>(<div key={link.id} className=""><NavigationMenuList  className='  '>
+    {links.map((link)=>(<React.Fragment key={link.id}><div key={link.id} className=""><NavigationMenuList  className='  '>
         <NavigationMenuItem  className=''><NavigationMenuTrigger className='text-sm text-white font-semibold bg-[#30D5C8]   '>{link.link}</NavigationMenuTrigger>
         
         
@@ -252,7 +252,7 @@ export default function List() {
           
             
               {link.dropdown.map((dropdown)=>(
-                <div key={dropdown.id} className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[1500px] lg:grid-cols-4  ">
+                <React.Fragment key={dropdown.id}><div key={dropdown.id} className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[1500px] lg:grid-cols-4  ">
                 <ListItem 
                 
                
@@ -263,7 +263,7 @@ export default function List() {
                 
                 
               </ListItem>
-              </div>
+              </div></React.Fragment> 
               ))}
             
           
@@ -276,7 +276,7 @@ export default function List() {
      
       
       
-    </NavigationMenuList></div>  ))}
+    </NavigationMenuList></div> </React.Fragment>  ))}
   </NavigationMenu>
     </div>
    
