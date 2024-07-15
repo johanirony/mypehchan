@@ -36,19 +36,19 @@ export default function List() {
                     id:2,
                     link:"Apparels",
                     href:"#",dropdown:[
-                      {  id:1.1,
+                      {  id:2.1,
                         link:"sweatshirt",
                         href:"#"
                     },
-                    {  id:1.2,
+                    {  id:2.2,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.3,
+                    {  id:2.3,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.4,
+                    {  id:2.4,
                         link:"hoodies",
                         href:"#"
                     }
@@ -58,19 +58,19 @@ export default function List() {
                     id:3,
                     link:"Mugs",
                     href:"#",dropdown:[
-                      {  id:1.1,
+                      {  id:3.1,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.2,
+                    {  id:3.2,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.3,
+                    {  id:3.3,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.4,
+                    {  id:3.4,
                         link:"hoodies",
                         href:"#"
                     }
@@ -80,19 +80,19 @@ export default function List() {
                     id:4,
                     link:"Personalised Pens",
                     href:"#",dropdown:[
-                      {  id:1.1,
+                      {  id:4.1,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.2,
+                    {  id:4.2,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.3,
+                    {  id:4.3,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.4,
+                    {  id:4.4,
                         link:"hoodies",
                         href:"#"
                     }
@@ -102,19 +102,19 @@ export default function List() {
                     id:5,
                     link:"Power Banks",
                     href:"#",dropdown:[
-                      {  id:1.1,
+                      {  id:5.1,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.2,
+                    {  id:5.2,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.3,
+                    {  id:5.3,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.4,
+                    {  id:5.4,
                         link:"hoodies",
                         href:"#"
                     }
@@ -124,19 +124,19 @@ export default function List() {
                     id:6,
                     link:"USBs",
                     href:"#",dropdown:[
-                      {  id:1.1,
+                      {  id:6.1,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.2,
+                    {  id:6.2,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.3,
+                    {  id:6.3,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.4,
+                    {  id:6.4,
                         link:"hoodies",
                         href:"#"
                     }
@@ -147,19 +147,19 @@ export default function List() {
                     id:8,
                     link:"IT Products",
                     href:"#",dropdown:[
-                      {  id:1.1,
+                      {  id:8.1,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.2,
+                    {  id:8.2,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.3,
+                    {  id:8.3,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.4,
+                    {  id:8.4,
                         link:"hoodies",
                         href:"#"
                     }
@@ -169,19 +169,19 @@ export default function List() {
                     id:9,
                     link:"Gifting Sets",
                     href:"#",dropdown:[
-                      {  id:1.1,
+                      {  id:9.1,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.2,
+                    {  id:9.2,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.3,
+                    {  id:9.3,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.4,
+                    {  id:9.4,
                         link:"hoodies",
                         href:"#"
                     }
@@ -193,19 +193,19 @@ export default function List() {
                     id:11,
                     link:"Packaging",
                     href:"#",dropdown:[
-                      {  id:1.1,
+                      {  id:11.1,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.2,
+                    {  id:11.2,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.3,
+                    {  id:11.3,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.4,
+                    {  id:11.4,
                         link:"hoodies",
                         href:"#"
                     }
@@ -215,19 +215,19 @@ export default function List() {
                     id:12,
                     link:"Stationery",
                     href:"#",dropdown:[
-                      {  id:1.1,
+                      {  id:12.1,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.2,
+                    {  id:12.2,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.3,
+                    {  id:12.3,
                         link:"hoodies",
                         href:"#"
                     },
-                    {  id:1.4,
+                    {  id:12.4,
                         link:"hoodies",
                         href:"#"
                     }
