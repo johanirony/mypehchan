@@ -18,12 +18,12 @@ export default function Navbar() {
 
         
         <div className="flex flex-col md:flex-row md:items-center justify-center gap-8 md:justify-start mb-4 md:mb-0">
-          <div className=""> <Link href="/Home" className="flex-shrink-0"> 
+          <div className=""> <Link href="/" className="flex-shrink-0"> 
             <Image src={logo} alt="logo" width={150} height={150} />
           </Link></div>
          
           <div className="mt-2 md:mt-0 md:ml-4">
-            <Link href='/'>
+            <Link href='/configure/upload'>
               <Button className='w-[150px] bg-black text-base hover:bg-gray-600'>Design</Button>
             </Link>
           </div>
@@ -43,9 +43,9 @@ export default function Navbar() {
           <SearchBar />
         </div>
         <ul className={`hidden md:flex flex-row space-x-9 md:ml-auto items-center text-xl font-normal ${mobileMenuOpen ? 'hidden' : ''}`}> 
-          <li className='   hover:underline'><Link href="/About">About</Link></li> 
-          <li className=' hover:underline'><Link href="/About">Contact</Link></li> 
-          <li className=' hover:underline'><Link href="/Blog">Blog</Link></li>
+          <li className='   hover:underline'><Link href="/about">About</Link></li> 
+          <li className=' hover:underline'><Link href="/about">Contact</Link></li> 
+          <li className=' hover:underline'><Link href="/blog">Blog</Link></li>
         <li className='hover:border hover:rounded hover:border-slate-500 flex flex-row gap-2'><UserRound/><Link href='/'>Sign Out</Link></li>
          <li className=' hover:underline flex flex-row gap-2'><UserRound/><Link href='/'>Sign up</Link></li>
           
@@ -66,9 +66,9 @@ export default function Navbar() {
           {/* Search Bar (Mobile) */}
           <SearchBar />
           <ul className="flex flex-col space-y-2 mt-4 ">
-            <li className=' hover:border hover:rounded hover:border-slate-500'><Link href="/About">About</Link></li> 
-            <li className='hover:border hover:rounded hover:border-slate-500'><Link href="/About">Contact</Link></li> 
-            <li className='hover:border hover:rounded hover:border-slate-500'><Link href="/Blog">Blog</Link></li>
+            <li className=' hover:border hover:rounded hover:border-slate-500'><Link href="/about">About</Link></li> 
+            <li className='hover:border hover:rounded hover:border-slate-500'><Link href="/about">Contact</Link></li> 
+            <li className='hover:border hover:rounded hover:border-slate-500'><Link href="/blog">Blog</Link></li>
             <li className='hover:border hover:rounded hover:border-slate-500 flex flex-row gap-2'><UserRound/><Link href='/'>Sign up</Link></li>
             <li className='hover:border hover:rounded hover:border-slate-500 flex flex-row gap-2'><UserRound/><Link href='/'>Sign in</Link></li>
             </ul>

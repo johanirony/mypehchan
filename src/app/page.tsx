@@ -2,6 +2,20 @@ import Image from 'next/image'
 import React from 'react'
 import hero1 from "@/assests/hero1.png"
 import hero2 from "@/assests/hero2.png"
+import mug from "@/assests/mug.png"
+import hoodie from "@/assests/hoodie.png"
+import joiningkits from "@/assests/joiningkits.png"
+import shirts from "@/assests/shirts.png"
+import cap from "@/assests/cap.png"
+import pendrive from "@/assests/pendrive.png"
+import mousepad from "@/assests/mousepad.png"
+
+
+
+
+import tshirt2 from "@/assests/tshirt2.png"
+import collarneck from "@/assests/collarneck.png"
+
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from "@/components/ui/card"
 import {
@@ -17,91 +31,88 @@ import Link from 'next/link'
 export default function Home() {
     const corousel=[{
         id:1,
-        image: hero1,
-        name:"Tshirt",
-        href:"/"
+        image: mug,
+        name:"Custom Mugs",
+        href:"/",
+        height:150,
+        width:150
 
     },
     {
-        id:1,
+        id:2,
 
-        image: hero1,
-        name:"Hoodies",
-        href:"/"
-
-    },
-    {
-        id:1,
-        image: hero1,
-        name:"Hoodies",
-        href:"/"
+        image: tshirt2,
+        name:"Custom T-shirts",
+        href:"/",
+        height:110,
+        width:110
 
     },
     {
-        id:1,
-        image: hero1,
-        name:"Hoodies",
-        href:"/"
+        id:3,
+        image: collarneck,
+        name:"Custom Polo Tshirts",
+        href:"/",
+        height:130,
+        width:130
 
     },
     {
-        id:1,
-        image: hero1,
-        name:"Hoodies",
-        href:"/"
+        id:4,
+        image: hoodie,
+        name:"Custom Hoodies",
+        href:"/",
+        height:120,
+        width:120
 
     },
     {
-        id:1,
-        image: hero1,
-        name:"Hoodies",
-        href:"/"
+        id:5,
+        image: joiningkits,
+        name:"Joining Kits",
+        href:"/",
+        height:150,
+        width:150
 
     },
     {
-        id:1,
-        image: hero1,
-        name:"Hoodies",
-        href:"/"
+        id:6,
+        image: shirts,
+        name:"Custom Shirts",
+        href:"/",
+        height:120,
+        width:120
+
+    },
+    {
+        id:7,
+        image: cap,
+        name:"Custom Caps",
+        href:"/",
+        height:300,
+        width:300
         
 
     },
     {
-        id:1,
-        image: hero1,
-        name:"Hoodies",
-        href:"/"
+        id:8,
+        image: pendrive,
+        name:"Custom Pendrives",
+        href:"/",
+        height:100,
+        width:200
 
     },
     {
-        id:1,
-        image: hero1,
-        name:"Hoodies",
-        href:"/"
+        id:9,
+        image: mousepad,
+        name:"Custom Mousepads",
+        href:"/",
+        height:100,
+        width:200
 
     },
-    {
-        id:1,
-        image: hero1,
-        name:"Hoodies",
-        href:"/"
-
-    },
-    {
-        id:1,
-        image: hero1,
-        name:"Hoodies",
-        href:"/"
-
-
-    },
-    {
-        id:1,
-        image: hero1,
-        name:"Hoodies",
-        href:"/"
-
-    },
+    
 ]
    
   return (
@@ -126,9 +137,9 @@ export default function Home() {
         {corousel.map((index) => (
           <CarouselItem key={index.id} className="pl-1 md:basis-1/2 lg:basis-1/6">
             <div className="p-1">
-              <Card className='rounded-full w-[200px]'>
+              <Card className='rounded-full w-[200px] bg-zinc-100 hover:bg-zinc-300'>
                 <CardContent className="flex  items-center justify-center p-6">
-                    <Link href={index.href}><Image src={index.image} alt='' width={150} height={150}/></Link>
+                    <Link href={index.href}><Image src={index.image} alt='' width={index.width} height={index.height}/></Link>
                   
                 </CardContent>
               </Card>
